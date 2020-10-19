@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX info</title>
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="shortcut icon" href="../../favicon.png" type="image/x-icon">
+</head>
+
+<body class="bg-dark white">
+
+    <header class="container text-center">
+        <h3>Get info about SpaceX program:</h3>
+    </header>
+
+    <main class="container">
+
+        <section class="maw-300 center">
+
+            <select id="data-type">
+                <option value="capsules">Capsules</option>
+                <option value="cores">Cores</option>
+                <option value="dragons">Dragons</option>
+                <option value="history">History</option>
+                <option value="info">Info</option>
+                <option value="landpads">Landpads</option>
+                <option value="launches">Launches</option>
+                <option value="missions">Missions</option>
+                <option value="payloads">Payloads</option>
+                <option value="roadster">Roadster</option>
+                <option value="rockets">Rockets</option>
+                <option value="ships">Ships</option>
+            </select>
+
+            <div class="text-center">
+                <button id="get-data" class="bg-green">Get data</button>
+            </div>
+
+        </section>
+
+        <div id="result" class="grid"></div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
